@@ -1,0 +1,131 @@
+.link {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: white;
+}
+.link:hover {
+  color: #a8e063;
+}
+
+button[type='submit'] {
+  width: 30%;
+  background: -webkit-linear-gradient(left, #479e3f, #35aee2);
+  background-size: 200% 200%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background: -webkit-linear-gradient(left, #479e3f, #78ffd6);
+  background-size: 200% 200%;
+}
+
+.mint-container {
+  border-radius: 10px;
+  height: 50vh;
+  /* overflow: auto; */
+  /* background-color: orange; */
+  width: 80vw;
+}
+
+.machine-stats-container {
+  border-radius: 10px;
+  height: 60vh;
+  overflow: auto;
+  width: 25vw;
+  /* background-color: #3f3333; */
+  background-color: #121214;
+}
+
+.minted-items-container {
+  border-radius: 10px;
+  height: 60vh;
+  overflow: auto;
+  width: 53vw;
+  /* background-color: blue; */
+  background-color: #121214;
+  display: flex;
+  flex-direction: column;
+}
+
+.minted-items-images-container {
+  border-radius: 10px;
+  height: 60vh;
+  overflow: auto;
+  background-color: #151518;
+  width: 53vw;
+}
+
+/* Track  */
+.minted-items-images-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey;
+  border-radius: 50px;
+}
+
+/* Handle */
+.minted-items-images-container::-webkit-scrollbar-thumb {
+  background: rgb(54, 54, 54);
+  border-radius: 50px;
+}
+
+/* width */
+.minted-items-images-container::-webkit-scrollbar {
+  width: 10px;
+  overflow: hidden;
+}
+
+.cta-button,
+.mint-button {
+  width: 60%;
+  background-color: #00b894;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.machine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-grid {
+  display: grid;
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  /* padding-left: 10px; */
+  /* background-color: #00b894; */
+}
+
+.img-item {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.img-item img {
+  width: 50%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}

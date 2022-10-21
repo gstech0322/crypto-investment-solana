@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  /* background-color: #2c2c2e; */
+  color: white;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: white;
+}
+.link:hover {
+  color: #7bb2d6;
+}
+.header-link {
+  margin-left: 50px;
+}
+
+input[type='text'],
+input[type='password'],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  width: 50%;
+  background: -webkit-linear-gradient(left, #479e3f, #35aee2);
+  background-size: 200% 200%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background: -webkit-linear-gradient(left, #479e3f, #78ffd6);
+  background-size: 200% 200%;
+}
+
+.form_extra_font {
+  font-size: 14px;
+}
+
+.content:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s;
+}
+
+@media screen and (max-width: 600px) {
+  .home-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.dashboard-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: white;
+}
+.link:hover {
+  color: #a8e063;
+}

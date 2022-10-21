@@ -1,0 +1,9 @@
+{
+  "name": "crypto-investment-solana",
+  "version": "1.0.0",
+  "description": "Crypto Investment is a web app that displays price information for various cryptocurrencies, lets users trade using its in-built trading bot, and gives all new users an NFT.",
+  "main": "index.js",
+  "repository": "https://github.com/gs-pro-engineer/crypto-investment-solana.git",
+  "author": "Tapabrata Dey <gs.tech.0322@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+node_modules
+/dist
+/src/config/firebase-keys.json
+/src/config/firebase-service.json

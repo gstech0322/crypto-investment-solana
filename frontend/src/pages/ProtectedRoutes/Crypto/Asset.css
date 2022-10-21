@@ -1,0 +1,106 @@
+.container {
+  border-radius: 10px;
+  height: 65vh;
+  overflow: auto;
+  /* background-color: orange; */
+  width: 80vw;
+}
+.price-chart-container {
+  border-radius: 10px;
+  height: 60vh;
+  overflow: auto;
+  width: 45vw;
+}
+.asset-stats {
+  border-radius: 10px;
+  height: 60vh;
+  overflow: auto;
+  width: 30vw;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  align-content: center;
+}
+
+/* Track  */
+.asset-stats::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey;
+  border-radius: 50px;
+}
+
+/* Handle */
+.asset-stats::-webkit-scrollbar-thumb {
+  background: rgb(54, 54, 54);
+  border-radius: 50px;
+}
+
+/* width */
+.asset-stats::-webkit-scrollbar {
+  width: 10px;
+  overflow: hidden;
+}
+
+.price-quick-stats {
+  border-radius: 20px;
+  /* height: 10vh; */
+  /* background-color: '#21214'; */
+  width: 20rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.header-asset {
+  display: flex;
+  align-items: baseline;
+  align-content: center;
+  margin-right: 10px;
+  width: 80vw;
+}
+
+.logo {
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+.MuiTableCell-head {
+  color: white;
+}
+.link1 {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #1cb5e0;
+}
+.link1:hover {
+  color: #a8e063;
+}
+.asset-indicator {
+  /* display: flex; */
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+}
+.wrap-quick-stats {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+}
+.price-change-24h {
+  height: 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px;
+  width: 40px;
+  color: red;
+}
+
+.price-change-24h-green {
+  height: 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px;
+  width: 40px;
+  color: green;
+}
